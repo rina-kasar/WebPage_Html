@@ -17,13 +17,6 @@ header {
     padding: 5px;
     background-color: rgb(17, 124, 143);
 }
-
-h4 {
-    text-align: center;
-    font-size: 20px;
-    color: black;
-}
-
 nav {
     background-color: #333;
     overflow: hidden;
@@ -41,33 +34,21 @@ main {
     background-color: white;
     text-align: center;
 }
-
-h2 {
-    padding: 20px;
+.container {
+    width: 100%;
+    overflow: hidden;
 }
 
-section:nth-child(even) {
-    background-color: rgb(241, 241, 241);
+.right-image {
+    float: right;
+    margin-left: 10px;
 }
 
-section {
-    min-height: 100vh;
+.content {
+    padding: auto;
 }
-
-image {
-    padding: 10px;
-}
-
-iframe {
-    height: 75vh;
-}
-
-img {
-    padding: 10px;
-}
-
-section h5 {
-    margin: 40px;
+div a {
+    color: blue;
 }
 
 footer {
